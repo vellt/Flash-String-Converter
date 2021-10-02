@@ -1,9 +1,9 @@
-# Flash String Converter
+# Flash String Converter Library
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=vellt/Flash-String-Converter) 
 ![Web 1280 – 1]( https://img.shields.io/badge/-open%20source-green)
 
-Null-safety string manipulating converter extensions `speed up` the development process. These extensions return null-safety values, but they can be modified with C# operators:
+Null-safety string manipulating converter extensions `speed up` the development process. These extensions return `null-safety` values, but they can be modified with C# operators:
 
 ## Remove null-safety
 Use casting to avoid conversion errors:
@@ -12,7 +12,7 @@ int number = (int)"32".ToInt32();
 ```
 
 ## With null-safety
-Use ? operator or Nullable<> generic:
+Use `?` operator or `Nullable<>` generic:
 ```c#
 int? number = "32".ToInt32();
 ```
@@ -36,7 +36,7 @@ Console.WriteLine(number * 2 ?? throw new FormatException("Error"));
 - ToBoolean
 
 ## How to use
-- step 1: download the dll in the release <a target="_blank" href="https://github.com/vellt/Flash-String-Converter/releases/tag/v0.0.1" >tab</a>
+- step 1: download the dll in the release <a target="_blank" href="https://github.com/vellt/Flash-String-Converter/releases/tag/v0.0.1" >tab</a>.
 - step 2: open a .NET Framework project with <a target="_blank" href="https://dotnet.microsoft.com/download/dotnet-framework/net472" >4.7.2</a> or newer.
 - step 3: In solution exproler right click on the project name -> add -> reference -> Browse..-> select the downloaded dll file and OK.
 - step 4: add the following to the namespaces:
