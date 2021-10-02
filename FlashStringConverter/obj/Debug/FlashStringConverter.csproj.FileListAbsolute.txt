@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\FlashStringConverter\FlashStringConverter\bin\Debug\FlashStringConverter.dll
+C:\Users\Lenovo\source\repos\FlashStringConverter\FlashStringConverter\bin\Debug\FlashStringConverter.pdb
+C:\Users\Lenovo\source\repos\FlashStringConverter\FlashStringConverter\obj\Debug\FlashStringConverter.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\FlashStringConverter\FlashStringConverter\obj\Debug\FlashStringConverter.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\FlashStringConverter\FlashStringConverter\obj\Debug\FlashStringConverter.dll
+C:\Users\Lenovo\source\repos\FlashStringConverter\FlashStringConverter\obj\Debug\FlashStringConverter.pdb
