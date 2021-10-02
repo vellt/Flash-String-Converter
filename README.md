@@ -12,7 +12,7 @@ int number = (int)"32".ToInt32();
 ```
 
 ## With null-safety
-Use `?` operator or `Nullable<>` generic:
+Use `?` operator or `Nullable<T>` generic:
 ```c#
 int? number = "32".ToInt32();
 Nullable<int> number = "32".ToInt32();
