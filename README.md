@@ -15,6 +15,7 @@ int number = (int)"32".ToInt32();
 Use `?` operator or `Nullable<>` generic:
 ```c#
 int? number = "32".ToInt32();
+Nullable<int> number = "32".ToInt32();
 ```
 
 ## Null checking
