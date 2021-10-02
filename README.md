@@ -5,20 +5,20 @@
 
 Null-safety string manipulating converter extensions `speed up` the development process. These extensions return null-safety values, but they can be modified with C# operators:
 
-## remove null-safety
-uses casting to avoid conversion errors:
+## Remove null-safety
+Use casting to avoid conversion errors:
 ```c#
 int number = (int)"32".ToInt32();
 ```
 
-## with null-safety
-use ? operator or Nullable<> generic:
+## With null-safety
+Use ? operator or Nullable<> generic:
 ```c#
 int? number = "32".ToInt32();
 ```
 
 ## Null checking
- In case of a conversion error, the extended string functions will return null. So it is worth checking its condition. 
+In case of a conversion error, the extended string functions will return null. So it is worth checking its condition. 
 ```c#
 if(number!=null) Console.WriteLine(number*2);
 else throw new FormatException("Error"); 
